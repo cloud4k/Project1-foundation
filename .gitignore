@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variable files (optional)
+*.tfvars
+
+# Mac
+.DS_Store
+
+# Sensitive files
+*.pem
+*.key
+
+# Terraform lock file
+# Uncomment if desired
