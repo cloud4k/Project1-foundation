@@ -25,7 +25,7 @@ module "ec2" {
   environment   = var.environment
   instance_type = var.instance_type
   instance_profile_name = module.iam.instance_profile_name
-  subnet_id = module.vpc.public_subnet_id
+  subnet_id = module.vpc.public_subnet_ids[0]
   vpc_id    = module.vpc.vpc_id
 
   tags = local.common_tags

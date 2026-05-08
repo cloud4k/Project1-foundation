@@ -4,9 +4,6 @@
 *.tfstate.*
 crash.log
 
-# Terraform variable files (optional)
-*.tfvars
-
 # Mac
 .DS_Store
 
